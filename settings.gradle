@@ -1,0 +1,2 @@
+rootProject.name = "Parcelstar Rider v3"
+include ':app'

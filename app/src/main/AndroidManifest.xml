@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parcelstar.rider">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeaconRider"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.parcelstar.rider.Activity.ReturnParcel.ReturnAcceptParcelActivity"></activity>
+        <activity android:name="com.parcelstar.rider.Activity.PaidAmount.PaidAmountActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.ReturnParcel.RequestReturnActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.ReturnParcel.ReturnActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.CollectionParcel.CollectionParcelActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.DeliveryParcel.AcceptDeliveryActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.DeliveryParcel.RequestDeliveryActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.DeliveryParcel.DeliveryParcelListActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.PickupParcel.AcceptPickActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.PickupParcel.RequestPickupActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.PickupParcel.PickupParcelActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.DashboardActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.LoginActivity" />
+        <activity android:name="com.parcelstar.rider.Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
